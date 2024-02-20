@@ -12,7 +12,8 @@
     "start": "next start",
     "lint": "next lint && prettier --check .",
     "format": "prettier --write .",
-    "bex" : "next build && next export"
+    "bex": "next build && next export",
+    "deploy": "gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
@@ -48,6 +49,7 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.6.0",
+    "gh-pages": "^6.1.1",
     "prettier": "2.8.4",
     "typescript": "^4.9.5"
   }
